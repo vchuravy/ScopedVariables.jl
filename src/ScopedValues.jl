@@ -111,8 +111,11 @@ end
 
 scoped(f) = f()
 
+include("snapshot.jl")
+
 include("payloadlogger.jl")
 
 end # isdefined
+
 
 end # module ScopedValues
